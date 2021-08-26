@@ -1,0 +1,124 @@
+.feedback {
+    margin-top: 262px;
+    margin-bottom: 244px;
+    display: flex;
+
+    &-right-box {
+        padding-top: 62px;
+        padding-left: 165px;
+        width: 1000px;
+        background-color: #333;
+        background-image: url('../images/fish.png');
+        background-repeat: no-repeat;
+        background-size: contain
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 62px;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        width: 334px;
+        margin-bottom: 29px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        width: 375px;
+        height: 50px;
+        background: #FFFFFF;
+        border: none;
+        outline: none;
+        margin-bottom: 14px;
+        padding-left: 22px;
+    }
+
+    &__input:focus{
+        border: 2px solid #FFBD54;
+    }
+
+    &__input::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+
+    &__textarea {
+        position: relative;
+        width: 375px;
+        height: 165px;
+        background: #FFFFFF;
+        padding-top: 37px;
+        padding-left: 22px;
+        padding-right: 15px;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+
+    &__textarea::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #DBDBDB;
+        width: 250px;
+        margin-top: 37px;
+    }
+
+    &__mini-text {
+        position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        z-index: 1;
+        margin-left: 22px;
+        margin-top: 17px;
+    }
+
+    &__btn {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background: #FFBD54;
+        width: 226px;
+        height: 50px;
+        margin-top: 30px;
+        border: none;
+    }
+    &__btn:hover {
+        color: #FFBD54;
+        background: #333333;
+    }
+
+    &__btn:active {
+        opacity: 0.6;
+    }
+
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}

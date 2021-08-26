@@ -1,0 +1,26 @@
+.karta {
+    position: relative;
+    padding-top: 265px;
+    background-image: url('../images/foote-mark.png'), url('../images/lupa.svg');
+    background-repeat: no-repeat;
+    background-size: 934px 329px, 112px 113px;
+    background-position: top right 10%, top 17% right 45%;
+    // margin-bottom: 35px;
+    margin-bottom: 206px;
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 60px;
+    }
+}
+
+.buldok {
+    position: absolute;
+    top: 90px;
+    left: 1%;
+}

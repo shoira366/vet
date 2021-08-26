@@ -1,0 +1,64 @@
+.faq-section {
+    background-image: url('../images/doctor-cat.png');
+    background-repeat: no-repeat;
+    background-size: 569px 466px;
+    background-position: top 35% right;
+    padding-bottom: 165px;
+
+    & .container {
+        padding-left: 120px;
+    }
+
+    &__wrapper {
+        padding-top: 118px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin-bottom: 27px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        width: 447px;
+        margin-bottom: 35px;
+    }
+
+    &-btn {
+        display: flex;
+        align-items: center;
+        background: #78C0DE;
+        width: 201px;
+    }
+
+    &-btn::before {
+        content: "";
+        width: 21px;
+        height: 21px;
+        display: inline-block;
+
+        background-image: url('../images/price.svg');
+        background-repeat: no-repeat;
+        background-size: 21px 21px;
+        margin-right: 7px;
+    }
+
+}
+
+.checkbox-1 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}

@@ -1,0 +1,62 @@
+.intro {
+    padding-top: 1px;
+    padding-bottom: 330px;
+    background-image: url('../images/pets.png'), url('../images/parrot.png');
+    background-repeat: no-repeat;
+    background-size: contain, 210px 430px;
+    background-position: left top -90px, right top 420px;
+    ;
+
+
+    &__wrapper {
+        width: 635px;
+        margin-left: auto;
+        margin-top: 153px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        width: 608px;
+        margin-bottom: 29px;
+    }
+
+    &-span {
+        color: #78C0DE;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        width: 495px;
+        margin-bottom: 38px;
+    }
+
+    &__btn {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+
+        color: #FFFFFF;
+        background: #333333;
+        border-radius: 3px;
+        padding: 15px 48px;
+    }
+
+    &__btn:hover {
+        color: #333333;
+        background: #FFBD54;
+        border-radius: 3px;
+    }
+    &__btn:active{
+        opacity: 0.6;
+    }
+}

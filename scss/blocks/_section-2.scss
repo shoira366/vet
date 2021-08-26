@@ -1,0 +1,97 @@
+.section-2 {
+    margin-top: 41px;
+    margin-bottom: 126px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid #F3F3F3;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding-left: 0;
+    }
+
+    & .container::before {
+        content: "";
+        width: 558px;
+        height: 525px;
+        display: inline-block;
+
+        background-image: url('../images/dogs.png');
+        background-repeat: no-repeat;
+        background-size: 558px 525px;
+        background-position: left top;
+        margin-right: 81px;
+    }
+
+
+    &__link-box {
+        margin-bottom: 35px;
+    }
+
+    &--link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #3D9CEA;
+        margin-right: 7px;
+    }
+
+    &--time {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;
+        margin-left: 355px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 38px;
+        color: #333333;
+        width: 325px;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        width: 517px;
+        margin-bottom: 48px;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+    }
+
+    &__link:hover {
+        color: #FFBD54;
+    }
+
+    &__link::before {
+        content: "";
+        width: 23px;
+        height: 21px;
+        display: inline-block;
+
+        background-image: url('../images/pet.svg');
+        background-repeat: no-repeat;
+        background-size: 23px 21px;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,79 @@
+.modal {
+    &__wrapper {
+        display: none;
+        margin: 746px auto;
+        padding-top: 119px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 850px;
+        height: 648px;
+        background-image: url('../images/phone-dog.png'), url('../images/orange-background.png');
+        background-repeat: no-repeat;
+        background-position: left 5% bottom;
+    }
+
+    &--box {
+        display: flex;
+        justify-content: space-between;
+        width: 710px;
+        margin-left: 75px;
+    }
+
+    &-box-right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 29px;
+    }
+
+    &-box-left {
+        margin-left: 136px;
+    }
+
+    &-span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333333;
+        margin-bottom: 21px;
+    }
+
+    .modal-link {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        background: #FFFFFF;
+        width: 239px;
+        padding: 15px 27px;
+        margin-bottom: 21px;
+    }
+}
+
+.google::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+    background-image: url('../images/google.svg');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin-right: 13px;
+}
+.facebook::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+    background-image: url('../images/facebook.svg');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin-right: 13px;
+}

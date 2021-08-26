@@ -1,0 +1,87 @@
+.events {
+    margin-top: 235px;
+    background-image: url('../images/background-1.png'), ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 88px;
+
+    & .container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .container::after {
+        position: absolute;
+        right: 0;
+        top: -225px;
+        content: "";
+        width: 613px;
+        height: 481px;
+        display: inline-block;
+
+        background-image: url('../images/dog.png');
+        background-repeat: no-repeat;
+        background-size: 613px 481px;
+    }
+
+    &__wrapper{
+        margin-right: 315px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    &__input {
+        width: 335px;
+        height: 50px;
+        border: none;
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding-left: 22px;
+        outline: none;
+    }
+
+    &__input::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+
+    &__input:focus{
+        border: 2px solid #FFBD54;
+    }
+
+    &__btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background: #333333;
+        border-radius: 3px;
+        padding: 15px 53px;
+        border: none;
+        margin-left: 21px;
+        &:hover{
+            color: #333333;
+            background: #FFBD54;
+            border-radius: 3px;
+        }
+        &:active{
+            opacity: 0.6;
+        }
+    }
+}

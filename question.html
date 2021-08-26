@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vet</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <section class="popup">
+        <div class="popup__wrapper">
+            <button class="popup--btn">
+                <img src="./images/iks.svg" width="18" height="18" alt="x">
+            </button>
+
+            <div class="popup--box">
+                <h3 class="popup__title">Остались вопросы?</h3>
+                <form class="popup__form" method="POST" action="http://echo.htmlacademy.ru">
+                    <input class="popup__input" name="username" required placeholder="Ваше имя" type="text">
+                    <input class="popup__input" name="useremail" type="email" placeholder="Email для обратной связи"
+                        required>
+                    <div class="text-box">
+                        <label class="popup__mini-text" for="x">Опишите Ваш вопрос.</label>
+                        <textarea class="popup__textarea" id="x" name="text" cols="30" rows="10"
+                            placeholder="Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                    </div>
+                    <button type="submit" class="popup-btn">Задать нам вопрос</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

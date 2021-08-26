@@ -1,0 +1,41 @@
+.clinic {
+    background-image: url('../images/foote-mark.png'), url('../images/Object.svg');
+    background-repeat: no-repeat;
+    background-position:  left 19px bottom -105px, left 49% bottom 2%;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        background-image: url('../images/miss-doctor.png');
+        background-size: 448px 545px, 669px 236px, 112px 113px;
+        background-repeat: no-repeat;
+        background-position: top 8% right -1%;
+        padding-top: 50px;
+        padding-left: 120px;
+        padding-bottom: 254px;
+    }
+
+    &__wrapper {
+        margin-top: 68px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        width: 411px;
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,209 @@
+.articles {
+    margin-top: 216px;
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 20px;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 80px;
+    }
+
+    &-second-box {
+        margin-top: 41px;
+    }
+
+    &__link-box {
+        margin-left: 30px;
+        margin-bottom: 32px;
+    }
+
+    &--link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #3D9CEA;
+        margin-right: 7px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--item {
+            cursor: pointer;
+            width: 305px;
+            height: 435px;
+            background: #FEFEFE;
+            border: 1px solid #E4E4E2;
+            border-top: 1px solid transparent;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            margin-right: 24px;
+        }
+
+        &--item:nth-child(2) {
+            width: 640px;
+            height: 435px;
+            border: 1px solid #F3F3F3;
+        }
+
+        &--item:last-child {
+            margin-right: 0;
+        }
+
+        &--item:hover {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        &--item:active {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        &--time {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: right;
+            color: #949494;
+            margin-bottom: 2px;
+            margin-right: 22px;
+        }
+
+        &--time-2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: #949494;
+            margin-left: 60px;
+        }
+
+        &--title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 25px;
+            color: #000000;
+            width: 182px;
+            margin-bottom: 10px;
+            margin-left: 30px;
+        }
+
+        &--title-2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 29px;
+            color: #333333;
+            width: 193px;
+            margin-bottom: 15px;
+            margin-left: 30px;
+        }
+
+        &--text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+            width: 244px;
+            margin-left: 30px;
+            margin-bottom: 34px;
+        }
+
+        &--text-2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+            width: 270px;
+            margin-bottom: 33px;
+            margin-left: 30px;
+        }
+
+        &--link {
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #333333;
+            margin-left: 30px;
+        }
+
+        &--link:hover {
+            color: #FFBD54;
+        }
+
+        &--link::before {
+            content: "";
+            width: 23px;
+            height: 21px;
+            display: inline-block;
+
+            background-image: url('../images/pet.svg');
+            background-repeat: no-repeat;
+            background-size: 23px 21px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.first--item {
+    flex-direction: column;
+}
+
+.first--item::before {
+    content: "";
+    width: 305px;
+    height: 180px;
+    display: inline-block;
+
+    background-image: url('../images/enjoying-cat.png');
+    background-repeat: no-repeat;
+    background-size: 305px 180px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 21px;
+}
+
+.second--item {
+    display: flex;
+}
+
+.second--item::before {
+    content: "";
+    width: 305px;
+    height: 435px;
+    display: inline-block;
+
+    background-image: url('../images/two-dogs.png');
+    background-repeat: no-repeat;
+    background-size: 305px 435px;
+}
+
+.third--item {
+    flex-direction: column;
+}
+
+.third--item::before {
+    content: "";
+    width: 305px;
+    height: 180px;
+    display: inline-block;
+
+    background-image: url('../images/little-dog.png');
+    background-repeat: no-repeat;
+    background-size: 305px 180px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 19px;
+}

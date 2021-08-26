@@ -1,0 +1,39 @@
+.section-1 {
+
+    & .container {
+        display: flex;
+        align-items: center;
+        padding-left: 120px;
+        padding-bottom: 84px;
+    }
+
+    & .container {
+        background-image: url('../images/jaguar-cat.png');
+        background-repeat: no-repeat;
+        background-size: 415px 317px;
+        background-position: right 17% top 37px;
+    }
+
+    &__wrapper {
+        margin-right: 93px;
+        margin-top: 79px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin-bottom: 21px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        width: 447px;
+    }
+}

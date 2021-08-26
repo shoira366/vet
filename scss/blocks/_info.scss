@@ -1,0 +1,65 @@
+.info {
+    padding-top: 30px;
+
+    & .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__line {
+        width: 140px;
+        height: 0;
+        border: 1px solid #DBDBDB;
+        background-color: #DBDBDB;
+    }
+
+    &__box {
+        display: flex;
+    }
+
+    &__block {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #949494;
+        width: 753px;
+        margin-top: 43px;
+    }
+
+    &__span {
+        width: 142px;
+        height: 128px;
+        font-family: 'Gaegu';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 200px;
+        line-height: 250px;
+
+        color: #DBDBDB;
+
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #333333;
+        margin-top: 35px;
+    }
+}
+
+.first {
+    margin-top: -25px;
+    margin-right: 35px;
+}
+
+.second-span {
+    transform: rotate(-180deg);
+    margin-left: 36px;
+    margin-top: 25px;
+}

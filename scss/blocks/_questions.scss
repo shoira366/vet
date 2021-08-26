@@ -1,0 +1,71 @@
+.questions {
+    background-image: url('../images/background-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 498px;
+    margin-bottom: 187px;
+    display: flex;
+    align-items: center;
+    margin-top: 163px;
+
+    &::after {
+        content: "";
+        width: 811px;
+        height: 636px;
+        display: inline-block;
+
+        background-image: url('../images/dog.png');
+        background-repeat: no-repeat;
+        background-size: 770px 636px;
+        background-position: right -138px top -52px;
+    }
+
+    & .container {
+        display: flex;
+        justify-content: center;
+        margin-top: -130px;
+        padding-left: 45px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 62px;
+        color: #FFFFFF;
+        width: 276px;
+        margin-bottom: 8px;
+    }
+
+    &__span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    &-btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+
+        color: #FFFFFF;
+        background: #000000;
+        border-radius: 3px;
+        padding: 16px 40px;
+        border: none;
+        margin-top: 26px;
+        width: 226px;
+
+        &:hover {
+            color: #333333;
+            background: #FFBD54;
+            border-radius: 3px;
+        }
+
+        &:active {
+            opacity: 0.6;
+        }
+    }
+}

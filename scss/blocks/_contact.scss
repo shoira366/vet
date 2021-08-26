@@ -1,0 +1,145 @@
+.contact {
+    background-image: url('../images/ugly-dog.png');
+    background-size: 487px 548px;
+    background-repeat: no-repeat;
+    margin-left: 113px;
+    background-position: right top;
+    padding-top: 18px;
+    margin-bottom: 117px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .container::after {
+        content: "";
+        width: 487px;
+        height: 548px;
+        display: inline-block;
+
+       
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin-bottom: 27px
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        width: 447px;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 117px;
+    }
+
+    &__address-box {
+        margin-right: 118px;
+    }
+
+    &__address-box::before {
+        content: "";
+        width: 73px;
+        height: 73px;
+        display: inline-block;
+
+        background-image: url('../images/location.svg');
+        background-repeat: no-repeat;
+        background-size: 73px 73px;
+        margin-bottom: 30px;
+    }
+
+    &__address {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        width: 153px;
+    }
+
+
+    &__time-box {
+        display: flex;
+        flex-direction: column;
+        margin-right: 118px;
+    }
+
+    &__time-box::before {
+        content: "";
+        width: 76px;
+        height: 72px;
+        display: inline-block;
+
+        background-image: url('../images/calendar.svg');
+        background-repeat: no-repeat;
+        background-size: 76px 72px;
+        margin-bottom: 27px;
+    }
+
+    &__time-work {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        margin-bottom: 12px;
+    }
+
+    &__time-work:last-child {
+        margin-bottom: 0;
+    }
+
+    &__list {
+        &--item {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            margin-bottom: 9px;
+        }
+
+        &--item {
+            margin-bottom: 0;
+        }
+
+        &--link {
+            color: #333333;
+        }
+        &--link:hover {
+            color: #FFBD54;
+        }
+
+        &--link:active {
+            color: #333333;
+            opacity: 0.6;
+        }
+    }
+
+    &__list::before {
+        content: "";
+        width: 46px;
+        height: 73px;
+        display: inline-block;
+
+        background-image: url('../images/smartphone.svg');
+        background-repeat: no-repeat;
+        background-size: 46px 73px;
+        margin-bottom: 27px;
+    }
+}

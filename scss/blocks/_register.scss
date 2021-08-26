@@ -1,0 +1,128 @@
+.register {
+    background-image: url('../images/flying-parrot.png'), url('../images/shadow.png');
+    background-size: 580px 640px,411px 57px;
+    background-repeat: no-repeat;
+    background-position: right bottom -1%,bottom right ;
+    padding-bottom: 167px;
+
+    & .container {
+        padding-left: 120px;
+    }
+
+    &__list {
+        &--item {
+            cursor: pointer;
+            position: relative;
+            background: #FFFFFF;
+            border: 1px solid #F3F3F3;
+            box-sizing: border-box;
+            border-radius: 5px;
+            padding-left: 63px;
+            margin-bottom: 18px;
+
+        }
+
+        &--item:nth-child(3n) {
+            opacity: 0.6;
+        }
+
+        &--box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 9px;
+        }
+
+        &--box::before {
+            content: "";
+            width: 30px;
+            height: 28px;
+            display: inline-block;
+
+            background-image: url('../images/orange-pet.svg');
+            background-repeat: no-repeat;
+            background-size: 30px 28px;
+        }
+
+        &--box-1 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 11px;
+        }
+
+        &--box-1::before {
+            content: "";
+            width: 30px;
+            height: 28px;
+            display: inline-block;
+
+            background-image: url('../images/blue-pet.svg');
+            background-repeat: no-repeat;
+            background-size: 30px 28px;
+        }
+
+        &--time {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            color: #333333;
+            margin-right: 28px;
+        }
+
+        &--link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 22px;
+            text-align: right;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #78C0DE;
+        }
+
+        &--title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            color: #333333;
+            margin-bottom: 23px;
+            width: 539px;
+        }
+
+        &--btn {
+            cursor: pointer;
+            position: absolute;
+            right: 45px;
+            top: 65px;
+            border: none;
+            background: none;
+            transform: rotate(90deg);
+        }
+
+        &--text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+            width: 577px;
+        }
+    }
+}
+
+.bigger-item {
+    width: 750px;
+    height: 305px;
+    padding-top: 27px;
+}
+
+.smaller-item {
+    width: 752px;
+    height: 139px;
+    padding-top: 23px;
+}
+
+.bottom-vector {
+    transform: rotate(-90deg);
+}
