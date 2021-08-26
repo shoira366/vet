@@ -30,13 +30,21 @@
     background-size: cover;
 }
 
-// main{
-//     height: 100%;
-//     background: #f9f8f8;
-//     background-image: url('../images/contact-background.png');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-// }
+.about-main{
+    height: 2100px;
+    background: #f9f8f8;
+    background-image: url('../images/contact-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    height: 100%;
+    background: #f9f8f8;
+    background-image: url('../images/contact-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .main-faq{
     height: 1890px;
