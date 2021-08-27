@@ -1,7 +1,7 @@
 .modal {
     &__wrapper {
         display: none;
-        margin: 746px auto;
+        margin: 590px auto;
         padding-top: 119px;
         position: absolute;
         top: 0;
@@ -12,6 +12,10 @@
         background-image: url('../images/phone-dog.png'), url('../images/orange-background.png');
         background-repeat: no-repeat;
         background-position: left 5% bottom;
+    }
+
+    &-activ {
+        display: block;
     }
 
     &--box {
@@ -66,7 +70,8 @@
     background-size: 20px 20px;
     margin-right: 13px;
 }
-.facebook::before{
+
+.facebook::before {
     content: "";
     width: 20px;
     height: 20px;

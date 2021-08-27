@@ -2020,10 +2020,12 @@ a {
 }
 
 .faq-section-btn {
+  cursor: pointer;
   display: flex;
   align-items: center;
   background: #78C0DE;
   width: 201px;
+  border: none;
 }
 
 .faq-section-btn::before {
@@ -2173,7 +2175,7 @@ a {
 
 .modal__wrapper {
   display: none;
-  margin: 746px auto;
+  margin: 590px auto;
   padding-top: 119px;
   position: absolute;
   top: 0;
@@ -2184,6 +2186,10 @@ a {
   background-image: url("../images/phone-dog.png"), url("../images/orange-background.png");
   background-repeat: no-repeat;
   background-position: left 5% bottom;
+}
+
+.modal-activ {
+  display: block;
 }
 
 .modal--box {
